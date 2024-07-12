@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spirited Away (2001)</title>
+  <link rel="icon" type="img/png" href="catmv.png">
+  <link rel="stylesheet" href="css8.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <style>
+    
+    .mfp-bg {
+      opacity: 0.8; 
+    }
+    .mfp-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .mfp-content {
+      width: auto;
+      max-width: 90%;
+      max-height: 90%;
+    }
+    .mfp-iframe-scaler {
+      max-width: 100%;
+      max-height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <br><br>
+
+  <!-- Start Navigation -->
+  <div class="top-right">
+    <a href="index.html">
+        <img src="catmv.png" alt="Go to Home" class="hover-image">
+        <span class="hover-text">Go to Home</span>
+    </a>
+  </div>
+  
+  <!-- End Navigation -->
+   
+  <!-- Hero sec-->
+  <section class="hero row container">
+    <div class="hero-content">
+      <a href="https://www.imdb.com/title/tt0245429/?ref_=tt_sims_tt_i_2" class="rate row">
+        <img src="imdb.png" alt="" class="imdb">
+        <h6>8.6</h6>
+      </a>
+      <p>2001 ‧ Animation ‧ Adventure ‧ Family ‧ 2h 5m</p>
+      <img src="salogo.png" alt="SA">
+      <p>In this animated feature by noted Japanese director Hayao Miyazaki, 10-year-old Chihiro and her parents stumble upon a seemingly abandoned amusement park. After her mother and father are turned into giant pigs, Chihiro meets the mysterious Haku, who explains that the park is a resort for supernatural beings who need a break from their time spent in the earthly realm, and that she must work there to free herself and her parents.</p>
+      <div class="content">
+        <a href="#video-popup" class="button more popup-link">
+          Watch Video<i class="fa fa-play-circle" aria-hidden="true"> &nbsp;</i>
+        </a>
+      </div>
+    </div>
+  </section>
+  <!-- Hero sec-->
+
+   <!-- Pagination -->
+<div class="pagination">
+  <a href="b7.html" class="page-link">&laquo;</a> <!-- Previous page link -->
+  <a href="b1.html" class="page-link">1</a> 
+  <a href="b2.html" class="page-link">2</a> 
+  <a href="b3.html" class="page-link">3</a>
+  <a href="b4.html" class="page-link">4</a> 
+  <a href="b5.html" class="page-link">5</a>
+  <a href="b6.html" class="page-link">6</a>
+  <a href="b7.html" class="page-link">7</a>
+  <a href="b8.html" class="active">8</a>
+  <a href="b1.html" class="page-link">&raquo;</a> <!-- Next page link -->
+</div>
+
+
+  <!-- Video Popup -->
+  <div id="video-popup" class="mfp-hide">
+    <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/ByXuk9QqQkk?si=N4X7bFUp6Y0xGtYe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <a class="popup-modal-dismiss" href="b8.html"><i class="fa fa-times-circle" aria-hidden="true"></i></a>
+  </div>
+ 
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      $('.popup-link').magnificPopup({
+        type: 'inline',
+        midClick: true,
+        mainClass: 'mfp-fade',
+        removalDelay: 160,
+        preloader: false,
+        fixedContentPos: false
+      });
+    });
+  </script>
+</body>
+</html>
