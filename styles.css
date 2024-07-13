@@ -334,5 +334,36 @@ footer {
 }
 
 
+/*Transitions*/
 
+.profile-header {
+    animation: transitionIn 0.75s;
+}
+
+.mp3{
+    animation: transitionIn 0.75s;
+}
+
+.content{
+    animation: transitionIn 0.75s;
+}
+
+.sidebar{
+    animation: transitionIn 0.75s;
+}
+
+
+@keyframes transitionIn {
+    from {
+       opacity: 0;
+       transform: rotateX('-10deg');
+
+    }
+
+    to {
+        opacity: 1;
+        transform: rotateX('0'); 
+
+    }
+}
 
